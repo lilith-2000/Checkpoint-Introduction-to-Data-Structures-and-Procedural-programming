@@ -1,0 +1,26 @@
+Algorithm: SumOfDistinctElements
+
+Input: Set1, Set2
+
+Output: sum
+
+Initialize:
+sum := 0
+distinct_elements := []
+
+Procedure:
+1. FOR each element in Set1 DO
+   IF element NOT in distinct_elements THEN
+      Append element to distinct_elements
+      sum := sum + element
+   END_IF
+END_FOR
+
+2. FOR each element in Set2 DO
+   IF element NOT in distinct_elements THEN
+      Append element to distinct_elements
+      sum := sum + element
+   END_IF
+END_FOR
+
+3. Print sum
