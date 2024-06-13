@@ -1,0 +1,21 @@
+Function: dot_product(v1, v2)
+   sum := 0
+   FOR i := 1 to n DO
+      sum := sum + v1[i] * v2[i]
+   END_FOR
+   RETURN sum
+
+Algorithm: OrthogonalityCheck
+
+Input: v1, v2
+
+Output: orthogonal (boolean)
+
+Procedure:
+1. ps := dot_product(v1, v2)
+2. IF ps == 0 THEN
+      orthogonal := TRUE
+   ELSE
+      orthogonal := FALSE
+   END_IF
+3. Print orthogonal
